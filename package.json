@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "lint": "eslint 'web/src/**/*.{js,ts,jsx,tsx}' 'api/**/*.{js,ts,jsx,tsx}'",
+    "lint:fix": "eslint --fix 'web/src/**/*.{js,ts,jsx,tsx}' 'api/**/*.{js,ts,jsx,tsx}'",
+    "format": "prettier --write 'web/src/**/*.{js,ts,jsx,tsx}' 'api/**/*.{js,ts,jsx,tsx}'"
+  }
+}

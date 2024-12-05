@@ -6,7 +6,9 @@ const port = 3001;
 app.use(cors());
 
 app.listen(port, () => {
-  console.log(`API server listening at http://localhost:${port}`);
+  console.log(
+    `API server listening at http://localhost:${port}`
+  );
 });
 
 app.get('/', (req, res) => {

@@ -1,3 +1,5 @@
+// I don't think this file is actually being used I think the eslint.config.mjs is setting the rules, etc
+
 export default [
   {
     languageOptions: {
