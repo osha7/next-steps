@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 function App() {
-  const [apiResponse, setApiResponse] = useState('');
-  console.log({apiResponse})
+  const [apiResponse, setApiResponse] = useState("");
+  console.log({ apiResponse });
 
   useEffect(() => {
-    fetch('http://localhost:3001')
+    fetch("http://localhost:3001")
       .then((response) => response.text())
       .then((data) => setApiResponse(data))
-      .catch((error) => console.error('Error fetching data:', error));
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   return (
