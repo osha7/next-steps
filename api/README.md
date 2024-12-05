@@ -1,6 +1,7 @@
 # API
 
 ## To run the server for the API:
+
 `node index.js`
 
 Runs the app in the development mode.\
