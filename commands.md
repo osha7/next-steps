@@ -52,3 +52,5 @@ SELECT * FROM my_table;
 
 ### dotenv
 npm install dotenv
+require('dotenv').config()
+console.log(`${process.env.PASSWORD}`)
