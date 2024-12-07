@@ -11,5 +11,8 @@
     "lint": "eslint 'web/src/**/*.{js,ts,jsx,tsx}' 'api/**/*.{js,ts,jsx,tsx}'",
     "lint:fix": "eslint --fix 'web/src/**/*.{js,ts,jsx,tsx}' 'api/**/*.{js,ts,jsx,tsx}'",
     "format": "prettier --write 'web/src/**/*.{js,ts,jsx,tsx}' 'api/**/*.{js,ts,jsx,tsx}'"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
